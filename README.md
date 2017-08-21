@@ -85,18 +85,18 @@ The GDC Data Portal allows to build and download manifests, but the same thing i
 not feasible for metadata quering, making the access through the
 `GenomicDataCommons R` package the only way to inspect those data.
 
-### spice_explorer webapp
+### spice_downloads webapp
 In order to provide an easy to use graphical web-based interface, to allow quick 
-access to GDC Data Portal, spice_explorer webapp was build. 
+access to GDC Data Portal, spice_downloads webapp was build. 
 No programming skills are required to use it, so even people without any 
 knoledge about `R` and the `GenomicDataCommons` package can access GDC data.
-The aim of spice_explorer is:
+The aim of spice_downloads is:
 
 * facilitate the GDC open-access data retrieval;
 * prepare the data to download;
 * easily reproduce earlier research results.
 
-spice_explorer webapp is a `Shiny` webapp (https://shiny.rstudio.com/) build around
+spice_downloads webapp is a `Shiny` webapp (https://shiny.rstudio.com/) build around
 the `GenomicDataCommons R` package. It allows to build and download manifests,
 as well as query metdata files and download them. 
 More specifically, users can:
@@ -116,7 +116,7 @@ The interface is composed by two main sections:
     + *metadata*: access metadata files;
     + *manifest*: access manifest files.
 
-spice_explorer webapp relies on different `R` packages:
+spice_downloads webapp relies on different `R` packages:
 
 * shiny
 * shinydashboard
@@ -132,5 +132,5 @@ spice_explorer webapp relies on different `R` packages:
 * curl
 
 and it requires `R >= 3.3.3`. Currently the app code is hosted on github, at 
-https://github.com/l0ka/spice_explorer; users can get free access, download and 
+https://github.com/l0ka/spice_downloads; users can get free access, download and 
 edit it.
